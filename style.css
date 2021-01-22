@@ -1,0 +1,60 @@
+.container {
+  width: 600px;
+  height: 250px;
+  border: 1px solid red;
+  margin: auto;
+}
+#dinasor {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-image: url(./kisspng-tyrannosaurus-dino-t-rex-t-rex-chrome-vr-jump-trex-t-rex-tirexproject-ask-me-anything-askfm-5b65a586e98056.5338427815333881669564-removebg-preview.png);
+  position: relative;
+  top: 200px;
+  left: 20px;
+}
+#cactus {
+  height: 40px;
+  width: 40px;
+  background-image: url(./kisspng-cactaceae-emoji-plant-saguaro-san-pedro-cactus-cactus-5abb415d8423c1.9433397415222214055413.png);
+  background-size: 40px;
+  position: relative;
+
+  left: 560px;
+  top: 152px;
+}
+
+.slide {
+  animation: slide 1.2s infinite;
+}
+@keyframes slide {
+  0% {
+    left: 560px;
+  }
+  100% {
+    left: -40px;
+  }
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 200px;
+  }
+  30% {
+    top: 130px;
+  }
+  50% {
+    top: 80px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 200px;
+  }
+}
